@@ -8,8 +8,8 @@ github:
     pullRequests: true
     pullRequestsFromForks: true
     addCheck: true
-    addComment: true
-    addBadge: false
+    addComment: false
+    addBadge: true
 
 image:
   file: .gitpod/.gitpod.dockerfile
