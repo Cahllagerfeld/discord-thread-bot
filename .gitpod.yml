@@ -1,0 +1,15 @@
+tasks:
+  - init: pnpm install 
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: true
+    addComment: false
+    addBadge: true
+
+image:
+  file: .gitpod/.gitpod.dockerfile
